@@ -48,7 +48,12 @@ public class CrawlerView extends javax.swing.JFrame {
 
         jtfSites.setText("C:\\\\Users\\\\Administrador\\\\Documents\\\\NetBeansProjects\\\\evapotranspiracao\\\\Crawler\\\\src\\\\config\\\\sites.csv");
 
-        jtfFolder.setText("C:\\\\Users\\\\Administrador\\\\Desktop/teste/data.html");
+        jtfFolder.setText("C:\\\\Users\\\\Administrador\\\\Desktop/teste/");
+        jtfFolder.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jtfFolderActionPerformed(evt);
+            }
+        });
 
         jButton1.setText("Download");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
@@ -115,6 +120,10 @@ public class CrawlerView extends javax.swing.JFrame {
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jtfFolderActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jtfFolderActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jtfFolderActionPerformed
 
     /**
      * @param args the command line arguments
